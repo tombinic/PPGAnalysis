@@ -56,4 +56,5 @@ This project represents a significant step towards the application of deep learn
 
 ## How to Use
 
-Detailed instructions on how to set up the environment, preprocess the data, train the models, and interpret the results can be found in the subsequent sections of this README.
+Detailed instructions on how to set up the environment, preprocess the data, train the models, and interpret the results can be found in the notebook in this folder. Just run the various cells.
+Clearly could be some errors due to path or missing files.
