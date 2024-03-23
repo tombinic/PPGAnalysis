@@ -4,7 +4,8 @@
 
 This project explores the utilization of deep learning techniques in analyzing Photoplethysmography (PPG) signals to identify cardiovascular abnormalities, specifically Premature Atrial Complex (PAC) and Premature Ventricular Complex (PVC). By leveraging the power of neural networks, we aim to bypass traditional manual feature extraction methods, enhancing diagnostic accuracy and scalability.
 
-![Project Workflow](path/to/figure1.png)
+![pipeline](https://github.com/tombinic/PPGAnalysis/assets/91635053/eb2e1496-98ae-4f54-b503-3a8456d41da3)
+
 
 *Figure 1: Project Workflow Overview*
 
@@ -21,7 +22,8 @@ Our preprocessing pipeline involves several key steps to ensure the data is prim
 3. **Artifacts Removal**: Utilizing double soft thresholding and hard thresholding on the frequency spectrum to eliminate signal artifacts.
 4. **Dataset Creation**: Constructing a balanced dataset by extracting windows around each signal peak.
 
-![Denoised Signal Example](path/to/figure6.png)
+![artifact2](https://github.com/tombinic/PPGAnalysis/assets/91635053/c893b61c-b2f7-4365-94a1-773d56b24a20)
+
 
 *Figure 2: Example of a Denoised Signal*
 
@@ -40,21 +42,17 @@ Our models were trained to perform both binary classification (N vs. S-V) and mu
 
 Our models demonstrated promising results in distinguishing between normal and abnormal PPG signals. The binary classifier achieved a Recall of 0.72, while the multi-class classifier showcased a Macro F1-Score of 0.65.
 
-![Confusion Matrix](path/to/figure14.png)
-
-*Figure 3: Confusion Matrix for the Multi-Class Classifier*
-
 ## Explainability
 
 To understand the decision-making process of our models, we employed Grad-CAM++, generating saliency maps that highlight the regions of the signal most influential in the model's predictions.
 
-![Grad-CAM++ for Class N](path/to/figure18.png)
+![0](https://github.com/tombinic/PPGAnalysis/assets/91635053/fbbc9d1a-4b13-49e8-8668-3937a7ed6d87)
 
 *Figure 4: Grad-CAM++ Visualization for Class N*
 
 ## Conclusion
 
-This project represents a significant step towards the application of deep learning in the domain of cardiac abnormality detection using PPG signals. Our approach not only improves diagnostic accuracy but also lays the groundwork for future research in this field.
+This project represents a significant step towards the application of deep learning in the domain of cardiac abnormality detection using PPG signals.
 
 ## How to Use
 
